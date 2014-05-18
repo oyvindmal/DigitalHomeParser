@@ -1,0 +1,32 @@
+[
+    {
+        "input" : "lol1",
+        "commands" : [
+            {
+                "type" : "TelldusOn",
+                "SwitchId" : 5
+            },
+            {
+                "type" : "TelldusOff",
+                "SwitchId" : 5
+            }
+        ]
+    },
+    {
+        "input" : "lol2",
+        "commands" : [
+             {
+                "type" : "TelldusOn",
+                "SwitchId" : 6
+            },
+            {
+                "type" : "TelldusOff",
+                "SwitchId" : 3
+            },
+            {
+                "type" : "HueOff",
+                "BulbId" : 1
+            }
+        ]
+    }
+]
