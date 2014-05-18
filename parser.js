@@ -2,9 +2,9 @@ var fs  = require("fs");
 
 var obj = JSON.parse(fs.readFileSync('config.json', 'utf8'));
 
-sendInput("lol2");
 
-function sendInput(input)
+
+module.exports.sendInput = function sendInput(input)
 {
     var match;
     
